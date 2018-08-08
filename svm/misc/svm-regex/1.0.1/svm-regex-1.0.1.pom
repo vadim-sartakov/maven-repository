@@ -29,12 +29,8 @@
     <distributionManagement>
         <repository>
             <id>release</id>
-            <url>file:../maven-repository/release</url>
+            <url>file:../maven-repository</url>
         </repository>
-        <snapshotRepository>
-            <id>snapshot</id>
-            <url>file:../maven-repository/snapshot</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <build>
